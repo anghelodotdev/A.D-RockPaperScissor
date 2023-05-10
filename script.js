@@ -5,7 +5,6 @@ const gameContainer = document.querySelector(".container"),
   result = document.querySelector(".result"),
   optionImages = document.querySelectorAll(".option_image");
 
-
 optionImages.forEach((image, index) => {
   image.addEventListener("click", (e) => {
     image.classList.add("active");
@@ -36,13 +35,13 @@ optionImages.forEach((image, index) => {
 
       let outcomes = {
         RR: "Draw",
-        RP: "NPC",
+        RP: "Bot",
         RS: "You",
         PP: "Draw",
         PR: "You",
-        PS: "NPC",
+        PS: "Bot",
         SS: "Draw",
-        SR: "NPC",
+        SR: "Bot",
         SP: "You",
       };
 

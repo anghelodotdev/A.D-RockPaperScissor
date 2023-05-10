@@ -12,14 +12,15 @@ body {
   justify-content: center;
   background: #e8e8eb;
 }
+
 ::selection {
   color: #fff;
   background-color: black;
 }
 .container {
-  height: 45rem;
+  height: 50rem;
   width: 60rem;
-  padding: 2rem 7rem;
+  padding: 2rem 9rem;
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +28,7 @@ body {
 .result_images {
   display: flex;
   align-items: center;
-  column-gap: 20rem;
+  column-gap: 25rem;
 }
 .container.start .user_result {
   transform-origin: right;
@@ -52,25 +53,27 @@ body {
   width: 100px;
 }
 .user_result img {
+  width: 140px;
   transform: rotate(90deg);
 }
 .cpu_result img {
+  width: 140px;
   transform: rotate(-90deg) rotateY(180deg);
 }
 .result {
   text-align: center;
-  font-size: 2rem;
-  color: black;
+  font-size: 3.5rem;
+  color: rgb(88, 88, 88);
   margin-top: 1.5rem;
 }
 
 .option_image img {
-  width: 50px;
+  width: 80px;
 }
 .option_images {
   display: flex;
   align-items: center;
-  margin-top: 2.5rem;
+  margin-top: 4rem;
   justify-content: space-between;
 }
 .container.start .option_images {
@@ -94,7 +97,7 @@ body {
   pointer-events: none;
 }
 .option_image p {
-  color: black;
+  color: rgb(22, 10, 182);
   font-size: 1.235rem;
   margin-top: 1rem;
   pointer-events: none;
